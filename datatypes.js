@@ -24,11 +24,23 @@ let num = numlist.find((num) => num === 2);
 console.log(num);
 let sum = numlist.reduce((acc, num) => acc + num);
 console.log(sum);
-//enum
-var Color;
-(function (Color) {
-    Color[Color["red"] = 0] = "red";
-    Color[Color["green"] = 1] = "green";
-    Color[Color["blue"] = 2] = "blue";
-})(Color || (Color = {}));
-let c = Color.blue;
+let c = 2 /* Color.blue */;
+//tuples
+let swapNumb;
+function swapNumbers(num1, num2) {
+    return [num1, num2];
+}
+swapNumb = swapNumbers(10, 20);
+swapNumb[0];
+//any
+let department;
+department = 'IT';
+department = 10;
+let departments;
+departments = 'IT';
+departments = 10;
+function add1(num1, num2) {
+    return num1 + num2;
+}
+let newsum = add1(10, 20);
+//

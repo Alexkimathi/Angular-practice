@@ -61,6 +61,28 @@ swapNumb= swapNumbers(10,20)
 swapNumb[0]
 
 
+//any
+let department: any;
+
+department = 'IT'
+department =10
+
+
+let departments;
+
+departments = 'IT'
+departments =10
+
+
+ function add1(num1:number, num2:number): any{
+    return num1 +num2
+ }
+
+ let newsum = add1(10,20)
+
+
+ //
+
 
 
 
